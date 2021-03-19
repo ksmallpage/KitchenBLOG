@@ -1,0 +1,14 @@
+.nav {
+  background: #ffa;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.blog__name {
+  display: flex;
+}
+
+.nav__heading {
+  margin: 0 0 0 10px;
+}
