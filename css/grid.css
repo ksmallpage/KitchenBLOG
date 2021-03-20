@@ -1,0 +1,35 @@
+.grid {
+  display: grid;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .grid--col-2 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+      "head head"
+      "card1 card2"
+      "foot foot";
+  }
+
+  .head {
+    grid-area: head;
+    background: blue;
+  }
+
+  .pudding {
+    grid-area: card1;
+    background: gold;
+  }
+
+  .mac {
+    grid-area: card2;
+    background: green;
+  }
+
+  .foot {
+    grid-area: foot;
+    background: dodgerblue;
+  }
+}
