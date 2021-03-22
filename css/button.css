@@ -12,11 +12,6 @@
   white-space: nowrap;
 }
 
-.btn__text {
-  text-decoration: none;
-  color: #fff;
-}
-
 .btn:hover {
   background-color: blue;
 }
