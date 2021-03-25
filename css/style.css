@@ -3,6 +3,7 @@
 @import "/css/nav.css";
 @import "/css/grid.css";
 @import "/css/button.css";
+@import "/css/block.css";
 
 *,
 *::before,
@@ -23,6 +24,11 @@ body {
   font-size: 2.4rem;
   line-height: 1.5;
   color: #918ca4;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .primary-color {
