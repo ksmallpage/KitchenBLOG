@@ -13,23 +13,28 @@
       "foot foot";
   }
 
-  .head {
-    grid-area: head;
-    background: blue;
+  .grid--col-3 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
   }
+}
 
-  .pudding {
-    grid-area: card1;
-    background: gold;
-  }
+.head {
+  grid-area: head;
+  background: blue;
+}
 
-  .mac {
-    grid-area: card2;
-    background: green;
-  }
+.pudding {
+  grid-area: card1;
+  background: gold;
+}
 
-  .foot {
-    grid-area: foot;
-    background: dodgerblue;
-  }
+.mac {
+  grid-area: card2;
+  background: green;
+}
+
+.foot {
+  grid-area: foot;
+  background: dodgerblue;
 }
