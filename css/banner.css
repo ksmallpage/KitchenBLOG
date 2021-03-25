@@ -1,15 +1,21 @@
 /* Banner Block */
 
+.block--banner {
+  padding-top: 0;
+}
+
 .banner {
   background-image: url(/images/hero-images/joe-ciciarelli-kitchen.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 30vh;
+  height: 40vh;
 }
 
 .banner__tag {
   font-weight: 700;
+  text-align: left;
   color: #333;
+  padding: 1rem 3rem;
 }
 
 @media screen and (min-width: 768px) {
