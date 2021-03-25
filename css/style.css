@@ -5,6 +5,7 @@
 @import "/css/button.css";
 @import "/css/block.css";
 @import "/css/hero.css";
+@import "/css/banner.css";
 
 *,
 *::before,
@@ -47,7 +48,7 @@ body {
 h1,
 h2,
 h3 {
-  color: #b7b0d1;
+  color: #333;
   margin-bottom: 1rem;
 }
 
