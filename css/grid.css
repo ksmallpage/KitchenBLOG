@@ -6,16 +6,37 @@
 @media screen and (min-width: 1024px) {
   .grid--col-2 {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas:
-      "head head"
-      "card1 card2"
-      "foot foot";
   }
 
   .grid--col-3 {
     grid-template-columns: repeat(3, 1fr);
     gap: 4rem;
+  }
+
+  .grid--col-8 {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+  .grid--col-9 {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .span--col-1 {
+    grid-column: 1 / span 1;
+  }
+
+  .span--col-2 {
+    grid-column: 2 / span 2;
+  }
+
+  .span--col-8 {
+    grid-column: 1 / span 8;
+  }
+
+  .menu--start-2 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: -1;
   }
 }
 
