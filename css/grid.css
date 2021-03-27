@@ -10,15 +10,13 @@
 
   .grid--col-3 {
     grid-template-columns: repeat(3, 1fr);
-    gap: 4rem;
+    gap: 1rem;
   }
 
-  .grid--col-8 {
-    grid-template-columns: repeat(8, minmax(0, 1fr));
-  }
   .grid--col-9 {
     grid-template-columns: repeat(9, minmax(0, 1fr));
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 50px 1fr;
+    gap: 1rem;
   }
 
   .span--col-1 {
@@ -29,14 +27,16 @@
     grid-column: 2 / span 2;
   }
 
-  .span--col-8 {
-    grid-column: 1 / span 8;
+  .span--col-3 {
+    grid-column: 1 / span all;
   }
 
   .menu--start-2 {
     grid-row-start: 2;
-    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-start: -10;
     grid-column-end: -1;
+    border-bottom: 1px solid #777;
   }
 }
 

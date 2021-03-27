@@ -1,4 +1,25 @@
 .menu__image {
-  width: 100px;
-  height: 100px;
+  max-width: 100%;
+  height: auto;
+}
+
+.menu__header {
+  display: block;
+  text-align: left;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.menu__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.menu__content-date {
+  text-align: left;
+}
+
+.menu__content-header {
+  text-align: left;
 }
