@@ -17,9 +17,27 @@
 }
 
 .menu__content-date {
+  text-transform: uppercase;
   text-align: left;
+  font-weight: bold;
 }
 
 .menu__content-header {
   text-align: left;
+  text-decoration: underline;
+}
+
+.menu__content-btn {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  word-spacing: 0.2rem;
+}
+
+.menu__content-link {
+  color: #e29b1a;
+}
+
+.menu__content-link:hover {
+  color: blue;
 }
