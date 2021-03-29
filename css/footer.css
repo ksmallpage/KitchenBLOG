@@ -11,7 +11,7 @@
 
 .footer__branding {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -22,20 +22,11 @@
 
 /* Social Icons */
 
-.footer-social__icons {
-  text-align: center;
-}
-.footer-social__icons li {
-  display: inline-block;
-  list-style-type: none;
-  /* -webkit-user-select: none;
-  -moz-user-select: none; */
-}
-.footer-social__icons li a {
+.footer--social__icons li a {
   border-bottom: none;
 }
-.footer-social__icons li img {
-  width: 70px;
-  height: 70px;
+.footer--social {
+  width: 35px;
+  height: 35px;
   margin-right: 20px;
 }

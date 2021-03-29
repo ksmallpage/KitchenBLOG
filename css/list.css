@@ -5,6 +5,10 @@
   text-align: left;
 }
 
+.list__item a {
+  color: #fff;
+}
+
 .list--inline .list__item {
   display: inline-block;
   margin-right: 2rem;
