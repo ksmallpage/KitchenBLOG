@@ -6,4 +6,36 @@
 .footer__heading {
   text-align: left;
   text-transform: uppercase;
+  font-weight: 600;
+}
+
+.footer__branding {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer__icon {
+  position: relative;
+  top: 8px;
+}
+
+/* Social Icons */
+
+.footer-social__icons {
+  text-align: center;
+}
+.footer-social__icons li {
+  display: inline-block;
+  list-style-type: none;
+  /* -webkit-user-select: none;
+  -moz-user-select: none; */
+}
+.footer-social__icons li a {
+  border-bottom: none;
+}
+.footer-social__icons li img {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
 }

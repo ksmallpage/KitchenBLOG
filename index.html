@@ -11,33 +11,55 @@
     />
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/style.css" />
-    <title>Keith's Kitchen</title>
+    <title>Menu Block</title>
   </head>
   <body>
-    <nav class="block container nav">
-      <div class="blog__name">
-        <div class="logo">
-          <img
-            class="logo__image"
-            src="/images/icons/pot.png"
-            alt="Cooking Pot Drawing"
-          />
-        </div>
-        <h1 class="nav__heading">Keith's Kitchen</h1>
+    <footer class="block secondary-color">
+      <div class="container grid">
+        <section class="footer__section">
+          <h4 class="footer__heading">Item 1</h4>
+          <ul class="list">
+            <li class="list__item">List 1</li>
+            <li class="list__item">List 2</li>
+            <li class="list__item">List 3</li>
+          </ul>
+        </section>
+        <section class="footer__section">
+          <h4 class="footer__heading">Social Media</h4>
+          <ul class="list footer--social__icons">
+            <li class="list__item">List 1</li>
+            <li class="list__item">List 2</li>
+            <li class="list__item">List 3</li>
+          </ul>
+        </section>
+        <section class="footer__section">
+          <h4 class="footer__heading">Acknowledgements</h4>
+          <ul class="list">
+            <li class="list__item">
+              Photos taken by <a href="" title="Linda">Linda</a> from
+              <a href="https://www.boutiquephotographer.com/" title="boutique"
+                >www.boutiquephotographer.com</a
+              >
+            </li>
+            <li class="list__item">
+              Icons made by <a href="" title="surang">surang</a> from
+              <a href="https://www.flaticon.com/" title="Flaticon"
+                >www.flaticon.com</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="footer__branding">
+          <div class="container-small">
+            <img
+              class="footer__icon"
+              src="images/icons/pot.png"
+              alt="icon of a cooking pot"
+            />
+          </div>
+          <p class="footer__copyright">Copyright Keith Smallpage 2021</p>
+        </section>
       </div>
-      <ul class="list list--inline">
-        <li class="list__item">About</li>
-        <li class="list__item">Contact</li>
-        <li class="list__item">ALAW</li>
-      </ul>
-    </nav>
-    <section class="block block--banner">
-      <div class="container banner">
-        <header class="banner__header banner__blur">
-          <!-- <h2 class="banner__heading">Keith's Kitchen</h2> -->
-          <p class="banner__tag">A blog about the only place to eat</p>
-        </header>
-      </div>
-    </section>
+    </footer>
   </body>
 </html>

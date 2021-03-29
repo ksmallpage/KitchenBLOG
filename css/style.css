@@ -36,6 +36,14 @@ body {
   margin: 0 auto;
 }
 
+.container-small {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
 .primary-color {
   background: #1962e6;
 }
