@@ -1,0 +1,9 @@
+.footer__section {
+  padding: 2rem;
+  border-bottom: 1px solid #666;
+}
+
+.footer__heading {
+  text-align: left;
+  text-transform: uppercase;
+}
