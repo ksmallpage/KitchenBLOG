@@ -20,6 +20,10 @@
   top: 8px;
 }
 
+.footer__site-name {
+  color: #666;
+}
+
 /* Social Icons */
 
 .footer--social__icons li a {
@@ -29,4 +33,11 @@
   width: 35px;
   height: 35px;
   margin-right: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__copyright {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
 }
