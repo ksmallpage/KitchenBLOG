@@ -24,6 +24,11 @@
   color: #918ca4;
 }
 
+.footer__copyright {
+  font-size: 1.5rem;
+  margin-left: 3rem;
+}
+
 /* Social Icons */
 
 .footer--social__icons li a {
@@ -40,6 +45,8 @@
     grid-column-start: 2;
     grid-row-start: 2;
   }
-}
 
-/* test GIT */
+  .footer__section {
+    border: 0;
+  }
+}
