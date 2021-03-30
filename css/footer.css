@@ -17,7 +17,7 @@
 
 .footer__icon {
   position: relative;
-  top: 8px;
+  top: 9px;
 }
 
 .footer__site-name {
@@ -41,3 +41,5 @@
     grid-row-start: 2;
   }
 }
+
+/* test GIT */
