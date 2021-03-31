@@ -1,0 +1,33 @@
+/* Inputs */
+
+.signup-group {
+  border-radius: 20px;
+  border: 1px solid grey;
+  color: #000;
+  font-size: 2rem;
+  outline: 0;
+  padding: 1.5rem 3.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .input {
+    font-size: 1.5rem;
+  }
+}
+
+.input-group {
+  border: 1px solid grey;
+  border-radius: 40px;
+  display: flex;
+}
+
+.input-group .input {
+  border: none;
+  flex-grow: 1;
+  padding: 1rem 1.2rem;
+  margin: 0 3rem;
+}
+
+.input-group .btn {
+  margin: 4px;
+}

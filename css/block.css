@@ -3,6 +3,12 @@
   text-align: center;
 }
 
+.block-small {
+  border: 1px solid grey;
+  background: blue;
+  
+}
+
 .block__header {
   text-align: center;
 }

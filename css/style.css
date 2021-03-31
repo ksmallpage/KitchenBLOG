@@ -9,6 +9,7 @@
 @import "/css/crew.css";
 @import "/css/menu.css";
 @import "/css/footer.css";
+@import "/css/signup.css";
 
 *,
 *::before,
@@ -34,6 +35,10 @@ body {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+.container-call-out {
+  max-width: 680px;
 }
 
 .container-small {
