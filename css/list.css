@@ -20,3 +20,9 @@
   display: inline-block;
   margin-right: 2rem;
 }
+
+/* Ingredient Lists */
+
+.list__ingredient-item {
+  list-style: inside;
+}
