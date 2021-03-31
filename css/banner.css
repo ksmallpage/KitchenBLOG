@@ -12,6 +12,15 @@
   background-repeat: no-repeat;
   height: 40vh;
 }
+.banner__buttermilk {
+  background-image: url(/images/hero-images/buttermilk-cake.jpg);
+}
+
+.banner__cake {
+  background-image: url(/images/hero-images/cake-ingredients.jpg);
+  background-attachment: fixed;
+  height: 50vh;
+}
 
 .banner__tag {
   font-weight: 700;
