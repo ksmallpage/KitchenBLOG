@@ -39,7 +39,8 @@ body {
 .container-small {
   margin-top: 20px;
   position: absolute;
-  width: 64px;
+  width: 100%;
+  max-width: 64px;
   height: 64px;
   border-radius: 50%;
   background-color: #fff;

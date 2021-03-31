@@ -6,6 +6,8 @@
 
 .banner {
   background-image: url(/images/hero-images/joe-ciciarelli-kitchen.jpg);
+  background-position: center center;
+  background-attachment: initial;
   background-size: cover;
   background-repeat: no-repeat;
   height: 40vh;
