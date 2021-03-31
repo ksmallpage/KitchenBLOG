@@ -35,8 +35,9 @@
 
 .menu__content-link {
   color: #e29b1a;
+  transition: 0.3s;
 }
 
 .menu__content-link:hover {
-  color: blue;
+  color: #333;
 }

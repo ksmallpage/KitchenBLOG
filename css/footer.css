@@ -32,6 +32,7 @@
 .footer__section a {
   color: #777;
   font-size: 1.6rem;
+  transition: 0.3s;
 }
 
 .footer__section a:hover {
