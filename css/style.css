@@ -39,6 +39,7 @@ body {
 
 .container-call-out {
   max-width: 680px;
+  padding-top: 0;
 }
 
 .container-small {
