@@ -14,23 +14,27 @@
     <title>Main Keith's Kitchen</title>
   </head>
   <body>
-    <nav class="block container nav">
-      <div class="blog__name">
-        <div class="logo">
-          <img
-            class="logo__image"
-            src="/images/icons/pot.png"
-            alt="Cooking Pot Drawing"
-          />
+    <header>
+      <nav class="block container nav">
+        <div class="blog__name">
+          <div class="logo">
+            <img
+              class="logo__image"
+              src="/images/icons/pot.png"
+              alt="Cooking Pot Drawing"
+            />
+          </div>
+          <h1 class="nav__heading">Keith's Kitchen</h1>
         </div>
-        <h1 class="nav__heading">Keith's Kitchen</h1>
-      </div>
-      <ul class="list list--inline">
-        <li class="list__item"><a href="#">About</a></li>
-        <li class="list__item"><a href="#">Contact</a></li>
-        <li class="list__item"><a href="#">ALAW</a></li>
-      </ul>
-    </nav>
+        <ul class="list list--inline">
+          <li class="list__item"><a href="#">About</a></li>
+          <li class="list__item"><a href="#">Contact</a></li>
+          <li class="list__item">
+            <a href="/Components/Blocks/main.html">Home</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <section class="block block--banner">
       <div class="container banner">
         <header class="banner__header">
@@ -130,7 +134,11 @@
               much. The cake is very light and moist.
             </p>
             <p class="menu__content-btn">
-              <a class="menu__content-link" href="#">Get the recipe</a>
+              <a
+                class="menu__content-link"
+                href="/Recipe-Pages/buttermilk-cake.html"
+                >Get the recipe</a
+              >
             </p>
           </div>
         </article>
@@ -157,7 +165,11 @@
               nostrum debitis cum vel?
             </p>
             <p class="menu__content-btn">
-              <a class="menu__content-link" href="#">Get the recipe</a>
+              <a
+                class="menu__content-link"
+                href="/Recipe-Pages/yorkshire-pudding.html"
+                >Get the recipe</a
+              >
             </p>
           </div>
         </article>
@@ -184,7 +196,11 @@
               nostrum debitis cum vel?
             </p>
             <p class="menu__content-btn">
-              <a class="menu__content-link" href="#">Get the recipe</a>
+              <a
+                class="menu__content-link"
+                href="/Recipe-Pages/mac-and-chesse.html"
+                >Get the recipe</a
+              >
             </p>
           </div>
         </article>
@@ -211,7 +227,11 @@
               nostrum debitis cum vel?
             </p>
             <p class="menu__content-btn">
-              <a class="menu__content-link" href="#">Get the recipe</a>
+              <a
+                class="menu__content-link"
+                href="/Recipe-Pages/potato-masala.html"
+                >Get the recipe</a
+              >
             </p>
           </div>
         </article>
@@ -238,7 +258,11 @@
               nostrum debitis cum vel?
             </p>
             <p class="menu__content-btn">
-              <a class="menu__content-link" href="#">Get the recipe</a>
+              <a
+                class="menu__content-link"
+                href="/Recipe-Pages/beans-and-greens.html"
+                >Get the recipe</a
+              >
             </p>
           </div>
         </article>
@@ -265,23 +289,54 @@
               nostrum debitis cum vel?
             </p>
             <p class="menu__content-btn">
-              <a class="menu__content-link" href="#">Get the recipe</a>
+              <a
+                class="menu__content-link"
+                href="/Recipe-Pages/porkchop-in-garlic.html"
+                >Get the recipe</a
+              >
             </p>
           </div>
         </article>
       </div>
     </div>
+    <section class="block container container-call-out">
+      <div class="signup-group">
+        <header class="block__header">
+          <h3>Sign up for our Newsletter</h3>
+        </header>
+        <div class="input-group">
+          <input type="email" class="input" />
+          <button class="btn primary-color">Sign up</button>
+        </div>
+      </div>
+    </section>
     <footer class="block secondary-color">
       <div class="container grid grid--col-3">
         <section class="footer__section">
           <h4 class="footer__heading">Recipes</h4>
           <ul class="list">
-            <li class="list__item"><a href="#">Birthday Cake</a></li>
-            <li class="list__item"><a href="#">Yorkshire Pudding</a></li>
-            <li class="list__item"><a href="#">Mummy Mac & Cheese</a></li>
-            <li class="list__item"><a href="#">Potato Masala</a></li>
-            <li class="list__item"><a href="#">Beans and Greens</a></li>
-            <li class="list__item"><a href="#">Pork Chop and Garlic</a></li>
+            <li class="list__item">
+              <a href="/Recipe-Pages/buttermilk-cake.html">Birthday Cake</a>
+            </li>
+            <li class="list__item">
+              <a href="/Recipe-Pages/yorkshire-pudding.html"
+                >Yorkshire Pudding</a
+              >
+            </li>
+            <li class="list__item">
+              <a href="/Recipe-Pages/mac-and-chesse.html">Mummy Mac & Cheese</a>
+            </li>
+            <li class="list__item">
+              <a href="/Recipe-Pages/potato-masala.html">Potato Masala</a>
+            </li>
+            <li class="list__item">
+              <a href="/Recipe-Pages/beans-and-greens.html">Beans and Greens</a>
+            </li>
+            <li class="list__item">
+              <a href="/Recipe-Pages/porkchop-in-garlic.html"
+                >Pork Chop and Garlic</a
+              >
+            </li>
           </ul>
         </section>
         <section class="footer__section">
@@ -341,8 +396,12 @@
               alt="icon of a cooking pot"
             />
           </div>
-          <h3 class="footer__site-name">Keith's Kitchen</h3>
-          <p class="footer__copyright">&copy Copyright Keith Smallpage 2021</p>
+          <div>
+            <h3 class="footer__site-name">Keith's Kitchen</h3>
+            <p class="footer__copyright">
+              &copy Copyright Keith Smallpage 2021
+            </p>
+          </div>
         </section>
       </div>
     </footer>
