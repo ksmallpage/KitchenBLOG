@@ -4,5 +4,20 @@
 }
 
 .list__ingredient {
-  margin: 0 30rem;
+  margin: 0 4rem;
+}
+
+.ingredient__content {
+  margin: 0 1rem;
+  text-align: left;
+}
+
+@media screen and (min-width: 1020px) {
+  .list__ingredient {
+    margin: 0 22rem;
+  }
+
+  .ingredient__content {
+    margin: 0 15rem;
+  }
 }
