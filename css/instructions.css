@@ -1,0 +1,9 @@
+.instructions__content {
+  text-align: left;
+}
+
+.instruction-card__icon {
+  width: 32px;
+  height: 32px;
+  padding-bottom: 0.5rem;
+}
