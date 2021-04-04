@@ -1,6 +1,8 @@
 .ingredients {
-  border: 1px solid #666;
   padding-bottom: 3rem;
+  border-radius: 7px;
+  box-shadow: 0 0 5px 10px #f3f3f3;
+  overflow: hidden;
 }
 
 .ingredient__list {
