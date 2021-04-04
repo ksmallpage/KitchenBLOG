@@ -2,8 +2,8 @@
   border: 1px solid #666;
   padding-bottom: 3rem;
 }
-/* TODO:change this name  */
-.list__ingredient {
+
+.ingredient__list {
   margin: 0 4rem;
 }
 
@@ -13,7 +13,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .list__ingredient,
+  .ingredient__list,
   .ingredient__content {
     margin: 0 15rem;
   }
