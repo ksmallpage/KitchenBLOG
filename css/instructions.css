@@ -7,3 +7,8 @@
   height: 32px;
   padding-bottom: 0.5rem;
 }
+
+.instruction__note {
+  font-weight: 900;
+  text-decoration: underline;
+}

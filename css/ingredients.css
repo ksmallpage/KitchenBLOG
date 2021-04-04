@@ -2,7 +2,7 @@
   border: 1px solid #666;
   padding-bottom: 3rem;
 }
-
+/* TODO:change this name  */
 .list__ingredient {
   margin: 0 4rem;
 }
@@ -12,11 +12,8 @@
   text-align: left;
 }
 
-@media screen and (min-width: 1020px) {
-  .list__ingredient {
-    margin: 0 22rem;
-  }
-
+@media screen and (min-width: 1024px) {
+  .list__ingredient,
   .ingredient__content {
     margin: 0 15rem;
   }
