@@ -22,6 +22,11 @@
   font-weight: bold;
 }
 
+.menu__author {
+  text-align: left;
+  font-size: smaller;
+}
+
 .menu__content-header {
   text-decoration: underline;
 }
